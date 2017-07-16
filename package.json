@@ -18,7 +18,7 @@
     "shelljs": "^0.2.6"
   },
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install --allow-root",
 
     "prestart": "npm install --no-optional --unsafe-perm --allow-root",
     "start": "http-server ./app -a 0.0.0.0 -p 8000 -c-1",
